@@ -41,14 +41,15 @@ function castArray(...args) {
 export default castArray
 
 /*
-*
+*  ... 就是为了将传入参数转为数组
 * 总结：
 *
 * 这个方法很奇怪，它只返回第一个值，那既然只返回第一个值，为什么要用 ...？直接使用 value 不就好了吗
 * 我个人感觉这个方法很是奇葩。。所以，学了这么久的 lodash 源码，我发现我学会了很多思想
 * 下面就是我写的一个函数
 *
-* */
+* 
+*/
 function cast(...args) {
   if(Array.isArray(args)) {
     return args;

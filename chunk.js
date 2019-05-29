@@ -35,9 +35,10 @@ function chunk(array, size) {
 export default chunk
 
 /*
-*
-* 思考：
-*
-* 上面的 baseSlice() 方法就是 Array.prototype.slice() 方法的替代
-*
-* */
+ *
+ * 思考：
+ * 
+ * Math.ceil() 大于或等于给定数字的最小整数
+ * 上面的 baseSlice() 方法就是 Array.prototype.slice() 方法的替代
+ *
+ */

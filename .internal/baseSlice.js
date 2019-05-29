@@ -29,3 +29,11 @@ function baseSlice(array, start, end) {
 }
 
 export default baseSlice;
+
+/**
+ * 问题: x ===> 0
+ * 
+ * 
+ * 本质上就是保证x有意义（为数字类型），且为正整数，在有效的数组范围内（0 ～ 0xFFFFFFFF），且在无意义的情况下缺省值为0
+ * https://stackoverflow.com/questions/1822350/what-is-the-javascript-operator-and-how-do-you-use-it
+ */
